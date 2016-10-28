@@ -1,0 +1,3 @@
+Bullet Speed:3.0
+Player Speed:1.5
+Enemy Speed:1.5

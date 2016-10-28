@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UI Classes">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{bb3ebe13-b216-4777-8db9-f4fea701abdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{0b2e5988-b761-400f-8f4e-c9378b95feb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Events">
+      <UniqueIdentifier>{7c100df1-25ed-45f9-b8e4-5d38ecf987bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Events\Listeners">
+      <UniqueIdentifier>{91cc3917-a2e6-4605-8f7c-73ad019e64ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Events\Listeners\Input">
+      <UniqueIdentifier>{4653a5d0-b6d1-48ac-bbbe-1871f93732f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Actor">
+      <UniqueIdentifier>{c7b0dcd0-5294-411b-bfab-c5cd32d7a8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Actor\Derived Actors">
+      <UniqueIdentifier>{2c911026-0229-4864-9700-73995ae766c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Command">
+      <UniqueIdentifier>{d5970b6a-e6ee-44d9-9c18-c90f16d6ff81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Actor\Derived Actors\Listeners">
+      <UniqueIdentifier>{b011881e-df77-4a2d-8425-4ffbe94b0f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Scene">
+      <UniqueIdentifier>{5413511c-402b-4c13-8567-b751ff5b0607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Events\Listeners\Collision">
+      <UniqueIdentifier>{d0ef923b-cccf-43c7-a584-991a7de79911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Actor\PolygonActors">
+      <UniqueIdentifier>{307a8cee-ad49-458a-86e8-42e4180698c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Steering">
+      <UniqueIdentifier>{4e6f16a2-43e9-4238-8767-4e40c2eafa18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Actor\Derived Actors\Enemy">
+      <UniqueIdentifier>{f8636c44-0ec5-43ce-9096-89f5dfb61654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Effects">
+      <UniqueIdentifier>{663c2494-3607-45df-b39a-0921d80508ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\math\calc.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\linear.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\math_t.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\matrix_t.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\point_t.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\transform.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\tuple_t.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\vector_t.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\frame.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\Canvas.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\InputState.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\Texture.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\WinCanvas.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\WinTexture.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\Geometry.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Application\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Application\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Application\Events\Listeners</Filter>
+    </ClInclude>
+    <ClInclude Include="InputEvent.h">
+      <Filter>Application\Events\Listeners\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputListener.h">
+      <Filter>Application\Events\Listeners\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Application\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorType.h">
+      <Filter>Application\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturedActor.h">
+      <Filter>Application\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorFactory.h">
+      <Filter>Application\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Application\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovementListener.h">
+      <Filter>Application\Actor\Derived Actors\Listeners</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionEvent.h">
+      <Filter>Application\Events\Listeners\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionListener.h">
+      <Filter>Application\Events\Listeners\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonActor.h">
+      <Filter>Application\Actor\PolygonActors</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleActor.h">
+      <Filter>Application\Actor\PolygonActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Application\Actor\Derived Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Application\Actor\Derived Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Steering.h">
+      <Filter>Application\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyState.h">
+      <Filter>Application\Actor\Derived Actors\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Application\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectType.h">
+      <Filter>Application\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Application\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemActor.h">
+      <Filter>Application\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectActor.h">
+      <Filter>Application\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPackActor.h">
+      <Filter>Application\Actor\Derived Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCollisionListener.h">
+      <Filter>Application\Actor\Derived Actors\Listeners</Filter>
+    </ClInclude>
+    <ClInclude Include="FearActor.h">
+      <Filter>Application\Actor\Derived Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinActor.h">
+      <Filter>Application\Actor\Derived Actors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\WinCanvas.cpp">
+      <Filter>UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Geometry.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WinTexture.cpp">
+      <Filter>UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputState.cpp">
+      <Filter>UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Application\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="InputEvent.cpp">
+      <Filter>Application\Events\Listeners\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Application\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturedActor.cpp">
+      <Filter>Application\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorFactory.cpp">
+      <Filter>Application\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionEvent.cpp">
+      <Filter>Application\Events\Listeners\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Application\Actor\Derived Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Application\Actor\Derived Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemActor.cpp">
+      <Filter>Application\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectActor.cpp">
+      <Filter>Application\Actor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tanked.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
